@@ -34,7 +34,7 @@
             "styles": [
               "node_modules/primeflex/primeflex.css",
               "node_modules/primeicons/primeicons.css",
-              "node_modules/primeng/resources/themes/nova/theme.css",
+              "node_modules/primeng/resources/themes/themes.css",
               "node_modules/primeng/resources/primeng.min.css",
               "src/styles.scss"
             ],

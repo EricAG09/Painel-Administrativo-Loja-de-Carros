@@ -1,0 +1,36 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-field {
+    margin-bottom: 1rem;  // Espaçamento entre os campos do formulário
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;  // Espaçamento entre a label e o input
+    font-weight: bold;
+  }
+  
+  input[pInputText] {
+    width: 100%;  // Faz o input ocupar toda a largura do container
+    padding: 0.5rem;  // Adiciona espaçamento interno no input
+    box-sizing: border-box;  // Garante que o padding não afete o tamanho do input
+  }
+  
+  p-button {
+    margin-top: 1rem;  // Espaçamento entre o último input e o botão
+  }
+  
