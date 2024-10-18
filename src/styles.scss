@@ -1,5 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+body {
+    background-image: url(./assets/car.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+}
+
 $background-color: #252525 !important;
 $font-color: #fff !important;
 
@@ -8,4 +17,8 @@ $font-color: #fff !important;
     color: $font-color;
     display: flex;
     justify-content: center;
+}
+
+.text-center {
+    text-align: center;
 }
